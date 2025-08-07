@@ -1,0 +1,32 @@
+Author="K3tR0n";           //Author's name
+loadScreen="";                  //Image info
+onLoadMission="Bu Bir Oyun Değildir!!";   //Message
+overviewPicture = "";
+
+respawn=3;
+respawnOnStart = 0;
+respawnDelay=5;
+
+#include "VVS\menu.h"
+#include "taw_vd\dialog.hpp"
+#include "bon_recruit_units\dialog\common.hpp"
+#include "bon_recruit_units\dialog\recruitment.hpp"
+
+class CfgFunctions
+{
+	#include "VVS\Functions.h"
+	#include "taw_vd\CfgFunctions.hpp"
+};
+
+
+
+
+
+
+
+
+
+
+
+
+

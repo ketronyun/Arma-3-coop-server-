@@ -1,0 +1,1 @@
+bon_recruit_recruitableunits = ["TMT_SAT_Commando","TMT_SAT_Commando_Medic","TMT_SAT_Commando_MG","TMT_SAT_Commando_AT","TMT_SAT_Commando","TMT_OZKK_AT","TMT_OZKK_Rifleman","TMT_OZKK_MG","TMT_OZKK_Medic"];
