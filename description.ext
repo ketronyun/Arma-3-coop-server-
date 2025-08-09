@@ -1,0 +1,38 @@
+author = "K3tR0n";
+loadScreen = "";
+onLoadMission = "Bu Bir Oyun Değildir!!";
+overviewPicture = "";
+
+respawn = 3;
+respawnOnStart = 0;
+respawnDelay = 5;
+
+// UI ve diğer sistemler
+#include "VVS\menu.h"
+#include "taw_vd\dialog.hpp"
+#include "bon_recruit_units\dialog\common.hpp"
+#include "bon_recruit_units\dialog\recruitment.hpp"
+#include "AFAR\UI\defines.hpp"
+#include "AFAR\UI\dialogs.hpp"
+#include "HackEX\HKX_dialogs.hpp"
+
+
+class CfgHints {
+  #include "HackEX\HKX_CfgHints.hpp"
+}
+
+class CfgFunctions {
+    #include "VVS\Functions.h"
+    #include "taw_vd\CfgFunctions.hpp"
+	 #include "HackEX\HKX_cfgFunctions.hpp"
+};
+
+
+// Sesler
+class CfgSounds {
+	#include "AFAR\f\SFX.hpp"
+	sounds[] = {};
+};
+
+
+

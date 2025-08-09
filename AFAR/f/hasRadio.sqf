@@ -1,0 +1,1 @@
+private _bool=(r_radios findIf{_x in(assignedItems r_p)}>=0 || {(r_RTOBP findIf{unitBackpack _this isKindOf _x}>=0)});_bool
