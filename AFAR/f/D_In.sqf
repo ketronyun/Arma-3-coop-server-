@@ -1,0 +1,1 @@
+if(r_alertOn)then{r_p call r_alert};[0,((allPlayers)-[r_p]select{_x distance r_p<=99})]call r_d;

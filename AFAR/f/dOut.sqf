@@ -1,0 +1,1 @@
+{r_p remoteExecCall["r_out",_x]}forEach(allPlayers-[r_p]select{side _x==playerSide});
